@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c34f1c2.css",
+    "main.js": "/static/js/main.82ecf986.js",
+    "static/media/krishnapic.jpg": "/static/media/krishnapic.f04af6c4f339363546d4.jpg",
+    "static/media/wisewallet.png": "/static/media/wisewallet.1531172bf30b4cb16ba8.png",
+    "static/media/Krishna_Resume_2023.docx": "/static/media/Krishna_Resume_2023.c09cfdbc29d1ff125ddf.docx",
+    "static/media/favicon.jpg": "/static/media/favicon.776acb4c3a40b00e5d65.jpg",
+    "static/media/keyboard_key_k.png": "/static/media/keyboard_key_k.02d0fff6462cb2a380c1.png",
+    "index.html": "/index.html",
+    "main.3c34f1c2.css.map": "/static/css/main.3c34f1c2.css.map",
+    "main.82ecf986.js.map": "/static/js/main.82ecf986.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c34f1c2.css",
+    "static/js/main.82ecf986.js"
+  ]
+}
