@@ -4,11 +4,12 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
-import Services from './components/services/Services';
+import Certification from './components/certification/Certification'
 import Qualification from './components/qualification/Qualification';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Scrollup from './components/scrollup/ScrollUp';
+import Project from './components/project/Project';
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       <Home/>
       <About/>
       <Skills/>
-      <Services/>
+      <Project/>
+      <Certification/>
       <Qualification/>
       <Contact/>
     </main>

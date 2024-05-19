@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "../../assets/about.jpg"
-import CV from "../../assets/John-Cv.pdf"
+import AboutImg from "../../assets/krishnapic.jpg"
+import CV from "../../assets/Krishna_Resume_2023.docx"
 import Info from './Info'
 
 const About = () => {
@@ -16,8 +16,8 @@ const About = () => {
             <div className="about__data">
                 <Info/>
 
-                <p className="about__description">Frontend developer, asfag, 
-                asd awd adwdaw fafawfwa wadasfasgaga, asf adsaf afafaf.
+                <p className="about__description">I enjoy coding and have a keen interest in computer vision, ML, and AI planning and optimization. 
+                I am currently seeking internship/full-time job opportunities.
                 </p>
 
                 <a download="" href={CV} className="button button--flex">Download Resume 

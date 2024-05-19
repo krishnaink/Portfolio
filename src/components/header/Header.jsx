@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "./header.css"
+import CV from "../../assets/Krishna_Resume_2023.docx"
+
 
 const Header = () => {
     /*Change background header */
@@ -18,7 +20,7 @@ const Header = () => {
     <header className="header">
         <nav className="nav container">
 
-            <a href="index.html" className="nav__logo">Smith</a>
+            <a href="index.html" className="nav__logo">Krishna</a>
             
             <div className={Toggle ? "nav__menu show-menu": "nav__menu"}>
                 <ul className="nav__list grid">
@@ -40,21 +42,28 @@ const Header = () => {
                     <li className="nav__item">
                         <a href="#skills" onClick={() => setActiveNav("#skills")} 
                         className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}>
-                            <i className="uil uil-file nav__icon"> Skills </i>
+                            <i className="uil uil-star nav__icon"> Skills </i>
+                        </a>
+                    </li>
+
+                    <li className="nav__item">
+                        <a href="#project" onClick={() => setActiveNav("#project")} 
+                        className={activeNav === "#project" ? "nav__link active-link" : "nav__link"}>
+                            <i className="uil uil-briefcase-alt nav__icon"> Projects </i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#services" onClick={() => setActiveNav("#services")} 
                         className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
-                            <i className="uil uil-briefcase-alt nav__icon"> Services </i>
+                            <i className="uil uil-briefcase-alt nav__icon"> Certifications </i>
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} 
+                        <a download="" href={CV} onClick={() => setActiveNav("#portfolio")} 
                         className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}>
-                            <i className="uil uil-scenery nav__icon"> Portfolio </i>
+                            <i className="uil uil-link nav__icon"> Resume </i>
                         </a>
                     </li>
 

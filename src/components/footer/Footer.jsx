@@ -1,4 +1,5 @@
 import React from 'react'
+import CV from "../../assets/Krishna_Resume_2023.docx"
 import "./footer.css"
 
 const Footer = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
                 </li>
 
                 <li>
-                    <a href="#portfolio" className="footer__link">Portfolio</a>
+                    <a download="" href={CV} className="footer__link">Resume</a>
                 </li>
             </ul>
 
